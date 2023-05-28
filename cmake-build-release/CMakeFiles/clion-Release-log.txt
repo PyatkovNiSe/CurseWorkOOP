@@ -1,0 +1,5 @@
+C:\Users\shamr\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - MinGW Makefiles" -S Y:\work\shuhov\oop\Pikitos\CurseWorkOOP -B Y:\work\shuhov\oop\Pikitos\CurseWorkOOP\cmake-build-release
+-- Found SFML 2.5.1 in C:/SFML_mingw64/lib/cmake/SFML
+-- Configuring done
+-- Generating done
+-- Build files have been written to: Y:/work/shuhov/oop/Pikitos/CurseWorkOOP/cmake-build-release

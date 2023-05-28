@@ -1,3 +1,3 @@
-C:/Users/oosko/CLionProjects/CourseWorkOOP/cmake-build-debug/CMakeFiles/CourseWorkOOP.dir
-C:/Users/oosko/CLionProjects/CourseWorkOOP/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/oosko/CLionProjects/CourseWorkOOP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+Y:/work/shuhov/oop/Pikitos/CurseWorkOOP/cmake-build-debug/CMakeFiles/CourseWorkOOP.dir
+Y:/work/shuhov/oop/Pikitos/CurseWorkOOP/cmake-build-debug/CMakeFiles/edit_cache.dir
+Y:/work/shuhov/oop/Pikitos/CurseWorkOOP/cmake-build-debug/CMakeFiles/rebuild_cache.dir

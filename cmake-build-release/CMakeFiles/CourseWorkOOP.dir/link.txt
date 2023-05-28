@@ -1,3 +1,0 @@
-C:\Users\shamr\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\CourseWorkOOP.dir/objects.a
-C:\Mingw\bin\ar.exe qc CMakeFiles\CourseWorkOOP.dir/objects.a @CMakeFiles\CourseWorkOOP.dir\objects1
-C:\Mingw\bin\c++.exe -O3 -DNDEBUG -static -Wl,--whole-archive CMakeFiles\CourseWorkOOP.dir/objects.a -Wl,--no-whole-archive -o Y:\work\shuhov\oop\Pikitos\CurseWorkOOP\bin\release\CourseWorkOOP.exe -Wl,--out-implib,libCourseWorkOOP.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\CourseWorkOOP.dir\linkLibs.rsp

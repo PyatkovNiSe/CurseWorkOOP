@@ -1,5 +1,19 @@
 cmake_minimum_required(VERSION 3.24)
 
+function(custom_add_library_from_dir TARGET)
+    set(SOURCES_DIR ${CMAKE_CURRENT_SOURCE_DIR})
+    set(HEADERS_DIR ${CMAKE_CURRENT_SOURCE_DIR})
+    file(GLOB TARGET_SOURCES ${SOURCES_DIR}/*.cpp)
+    message(${TARGET} " [SOURCES] -> " ${TARGET_SOURCES})
+    file(GLOB TARGET_HEADERS ${HEADERS_DIR}/*.h)
+    message(${TARGET} " [HEADERS] -> " ${TARGET_HEADERS})
+
+    add_library(${TARGET} ${TARGET_SOURCES} ${TARGET_HEADERS})
+    set_target_properties(${TARGET} PROPERTIES LINKER_LANGUAGE CXX)
+
+    target_include_directories(${TARGET} PUBLIC ${HEADERS_DIR})
+endfunction()
+
 set(PROJECT_NAME CourseWorkOOP)
 project(${PROJECT_NAME})
 
@@ -7,10 +21,10 @@ set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_link_options(-static)
 
+add_executable(${PROJECT_NAME} Main.cpp assets/scripts/utility/Utility.h assets/scripts/ui/Ui.h assets/scripts/gameplay/Gameplay.h assets/scripts/utility/Container.h assets/scripts/Scripts.h)
+
 set(SCRIPTS_DIR "assets/scripts")
 add_subdirectory(${SCRIPTS_DIR})
-
-add_executable(${PROJECT_NAME} main.cpp)
 
 set(SFML_STATIC_LIBRARIES TRUE)
 set(SFML_DIR C:/SFML_mingw64/lib/cmake/SFML)
@@ -18,6 +32,8 @@ find_package(SFML COMPONENTS system window graphics audio network REQUIRED)
 
 set(SFML_INCLUDE_DIR "C:/SFML_mingw64/include")
 include_directories(${SFML_INCLUDE_DIR})
+
+target_link_libraries(${PROJECT_NAME} PUBLIC SCRIPTS)
 
 set(SFML_LIBS sfml-system sfml-window sfml-graphics sfml-audio)
 target_link_libraries(${PROJECT_NAME} PUBLIC ${SFML_LIBS})

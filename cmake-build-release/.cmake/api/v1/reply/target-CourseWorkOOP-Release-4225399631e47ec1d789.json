@@ -1,0 +1,528 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "Y:/work/shuhov/oop/Pikitos/CurseWorkOOP/bin/release/CourseWorkOOP.exe"
+		},
+		{
+			"path" : "Y:/work/shuhov/oop/Pikitos/CurseWorkOOP/bin/release/CourseWorkOOP.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"add_link_options",
+			"target_link_libraries",
+			"custom_add_library_from_dir",
+			"set_target_properties",
+			"include",
+			"find_package",
+			"set_property",
+			"sfml_bind_dependency",
+			"target_include_directories",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"assets/scripts/gameplay/CMakeLists.txt",
+			"assets/scripts/ui/CMakeLists.txt",
+			"assets/scripts/utility/CMakeLists.txt",
+			"C:/SFML_mingw64/lib/cmake/SFML/SFMLStaticTargets.cmake",
+			"C:/SFML_mingw64/lib/cmake/SFML/SFMLConfig.cmake",
+			"C:/SFML_mingw64/lib/cmake/SFML/SFMLConfigDependencies.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 27,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 25,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 4
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 1,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 7
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 1,
+				"parent" : 9
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 10
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 40,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			},
+			{
+				"file" : 5,
+				"parent" : 13
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 116,
+				"parent" : 14
+			},
+			{
+				"file" : 4,
+				"parent" : 15
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 73,
+				"parent" : 16
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 117,
+				"parent" : 14
+			},
+			{
+				"file" : 6,
+				"parent" : 18
+			},
+			{
+				"command" : 7,
+				"file" : 6,
+				"line" : 57,
+				"parent" : 19
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 66,
+				"parent" : 19
+			},
+			{
+				"command" : 7,
+				"file" : 6,
+				"line" : 38,
+				"parent" : 21
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 56,
+				"parent" : 16
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 72,
+				"parent" : 19
+			},
+			{
+				"command" : 7,
+				"file" : 6,
+				"line" : 38,
+				"parent" : 24
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 74,
+				"parent" : 19
+			},
+			{
+				"command" : 7,
+				"file" : 6,
+				"line" : 38,
+				"parent" : 26
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 75,
+				"parent" : 19
+			},
+			{
+				"command" : 7,
+				"file" : 6,
+				"line" : 38,
+				"parent" : 28
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 77,
+				"parent" : 19
+			},
+			{
+				"command" : 7,
+				"file" : 6,
+				"line" : 38,
+				"parent" : 30
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 78,
+				"parent" : 19
+			},
+			{
+				"command" : 7,
+				"file" : 6,
+				"line" : 38,
+				"parent" : 32
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 79,
+				"parent" : 19
+			},
+			{
+				"command" : 7,
+				"file" : 6,
+				"line" : 38,
+				"parent" : 34
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 17,
+				"parent" : 4
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 17,
+				"parent" : 7
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 17,
+				"parent" : 10
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 37,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG -fdiagnostics-color=always"
+				},
+				{
+					"fragment" : "-std=gnu++23"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 12,
+					"define" : "SFML_STATIC"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 36,
+					"path" : "Y:/work/shuhov/oop/Pikitos/CurseWorkOOP/assets/scripts/gameplay/."
+				},
+				{
+					"backtrace" : 37,
+					"path" : "Y:/work/shuhov/oop/Pikitos/CurseWorkOOP/assets/scripts/ui/."
+				},
+				{
+					"backtrace" : 38,
+					"path" : "Y:/work/shuhov/oop/Pikitos/CurseWorkOOP/assets/scripts/utility/."
+				},
+				{
+					"backtrace" : 5,
+					"path" : "Y:/work/shuhov/oop/Pikitos/CurseWorkOOP/assets/scripts/gameplay"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "Y:/work/shuhov/oop/Pikitos/CurseWorkOOP/assets/scripts/ui"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "Y:/work/shuhov/oop/Pikitos/CurseWorkOOP/assets/scripts/utility"
+				},
+				{
+					"backtrace" : 39,
+					"isSystem" : true,
+					"path" : "C:/SFML_mingw64/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "23"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "GAMEPLAY::@8c24bbd3b63a1c99b462"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "UI::@38b9ca77f385106c19a3"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "UTILITY::@fb5dd210f79cab5e9107"
+		}
+	],
+	"id" : "CourseWorkOOP::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-O3 -DNDEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-static",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "assets\\scripts\\gameplay\\libGAMEPLAY.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "assets\\scripts\\ui\\libUI.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "assets\\scripts\\utility\\libUTILITY.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "C:\\SFML_mingw64\\lib\\libsfml-system-s.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "C:\\SFML_mingw64\\lib\\libsfml-window-s.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "C:\\SFML_mingw64\\lib\\libsfml-graphics-s.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "C:\\SFML_mingw64\\lib\\libsfml-audio-s.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "C:\\SFML_mingw64\\lib\\libsfml-window-s.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 17,
+				"fragment" : "-lgdi32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "-lOpenGL32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 22,
+				"fragment" : "C:\\SFML_mingw64\\lib\\libfreetype.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "C:\\SFML_mingw64\\lib\\libsfml-system-s.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 23,
+				"fragment" : "-lwinmm",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 25,
+				"fragment" : "C:\\SFML_mingw64\\lib\\libopenal32.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "C:\\SFML_mingw64\\lib\\libvorbisfile.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "C:\\SFML_mingw64\\lib\\libvorbisenc.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 31,
+				"fragment" : "C:\\SFML_mingw64\\lib\\libvorbis.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 33,
+				"fragment" : "C:\\SFML_mingw64\\lib\\libogg.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 35,
+				"fragment" : "C:\\SFML_mingw64\\lib\\libFLAC.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "CourseWorkOOP",
+	"nameOnDisk" : "CourseWorkOOP.exe",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "assets/scripts/utility/Utility.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "assets/scripts/ui/Ui.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "assets/scripts/gameplay/Gameplay.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "assets/scripts/utility/Container.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "assets/scripts/Scripts.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}

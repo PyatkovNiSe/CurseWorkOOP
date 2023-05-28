@@ -5,7 +5,7 @@
 		<Option title="CourseWorkOOP"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\SFML_mingw64\;CMake Files\SFML_mingw64\lib\;CMake Files\SFML_mingw64\lib\cmake\;CMake Files\SFML_mingw64\lib\cmake\SFML\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\SFML_mingw64\;CMake Files\SFML_mingw64\lib\;CMake Files\SFML_mingw64\lib\cmake\;CMake Files\SFML_mingw64\lib\cmake\SFML\;CMake Files\assets\;CMake Files\assets\scripts\;CMake Files\assets\scripts\gameplay\;CMake Files\assets\scripts\ui\;CMake Files\assets\scripts\utility\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="Y:/work/shuhov/oop/Pikitos/CurseWorkOOP/cmake-build-debug"/>
@@ -109,6 +109,18 @@
 		</Unit>
 		<Unit filename="Y:/work/shuhov/oop/Pikitos/CurseWorkOOP/SFML_mingw64/lib/cmake/SFML/SFMLStaticTargets.cmake">
 			<Option virtualFolder="CMake Files\SFML_mingw64\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="Y:/work/shuhov/oop/Pikitos/CurseWorkOOP/assets/scripts/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\assets\scripts\"/>
+		</Unit>
+		<Unit filename="Y:/work/shuhov/oop/Pikitos/CurseWorkOOP/assets/scripts/gameplay/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\assets\scripts\gameplay\"/>
+		</Unit>
+		<Unit filename="Y:/work/shuhov/oop/Pikitos/CurseWorkOOP/assets/scripts/ui/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\assets\scripts\ui\"/>
+		</Unit>
+		<Unit filename="Y:/work/shuhov/oop/Pikitos/CurseWorkOOP/assets/scripts/utility/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\assets\scripts\utility\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

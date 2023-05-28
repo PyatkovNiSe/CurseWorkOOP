@@ -1,0 +1,68 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "assets/scripts/gameplay/libGAMEPLAY.a"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"custom_add_library_from_dir"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"assets/scripts/gameplay/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 1
+			}
+		]
+	},
+	"id" : "GAMEPLAY::@8c24bbd3b63a1c99b462",
+	"name" : "GAMEPLAY",
+	"nameOnDisk" : "libGAMEPLAY.a",
+	"paths" : 
+	{
+		"build" : "assets/scripts/gameplay",
+		"source" : "assets/scripts/gameplay"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"path" : "assets/scripts/gameplay/Gameplay.h",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

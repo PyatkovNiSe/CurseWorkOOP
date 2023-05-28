@@ -1,0 +1,68 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "assets/scripts/ui/libUI.a"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"custom_add_library_from_dir"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"assets/scripts/ui/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 1
+			}
+		]
+	},
+	"id" : "UI::@38b9ca77f385106c19a3",
+	"name" : "UI",
+	"nameOnDisk" : "libUI.a",
+	"paths" : 
+	{
+		"build" : "assets/scripts/ui",
+		"source" : "assets/scripts/ui"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"path" : "assets/scripts/ui/Ui.h",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

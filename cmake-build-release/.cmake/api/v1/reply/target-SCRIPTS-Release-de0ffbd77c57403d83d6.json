@@ -1,0 +1,68 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "assets/scripts/libSCRIPTS.a"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"custom_add_library_from_dir"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"assets/scripts/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 1
+			}
+		]
+	},
+	"id" : "SCRIPTS::@7ae8b4da6de210f21ee0",
+	"name" : "SCRIPTS",
+	"nameOnDisk" : "libSCRIPTS.a",
+	"paths" : 
+	{
+		"build" : "assets/scripts",
+		"source" : "assets/scripts"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"path" : "assets/scripts/Scripts.h",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

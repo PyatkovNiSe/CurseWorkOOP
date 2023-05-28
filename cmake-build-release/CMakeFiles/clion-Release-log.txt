@@ -5,6 +5,8 @@ UI [SOURCES] ->
 UI [HEADERS] -> Y:/work/shuhov/oop/Pikitos/CurseWorkOOP/assets/scripts/ui/Ui.h
 UTILITY [SOURCES] -> 
 UTILITY [HEADERS] -> Y:/work/shuhov/oop/Pikitos/CurseWorkOOP/assets/scripts/utility/Container.hY:/work/shuhov/oop/Pikitos/CurseWorkOOP/assets/scripts/utility/PointerList.hY:/work/shuhov/oop/Pikitos/CurseWorkOOP/assets/scripts/utility/Rectangle.hY:/work/shuhov/oop/Pikitos/CurseWorkOOP/assets/scripts/utility/Signal.hY:/work/shuhov/oop/Pikitos/CurseWorkOOP/assets/scripts/utility/Singleton.hY:/work/shuhov/oop/Pikitos/CurseWorkOOP/assets/scripts/utility/Size2.hY:/work/shuhov/oop/Pikitos/CurseWorkOOP/assets/scripts/utility/Utility.hY:/work/shuhov/oop/Pikitos/CurseWorkOOP/assets/scripts/utility/Vector2.h
+SCRIPTS [SOURCES] -> 
+SCRIPTS [HEADERS] -> Y:/work/shuhov/oop/Pikitos/CurseWorkOOP/assets/scripts/Scripts.h
 -- Found SFML 2.5.1 in C:/SFML_mingw64/lib/cmake/SFML
 -- Configuring done
 -- Generating done

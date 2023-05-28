@@ -1,6 +1,7 @@
 Y:/work/shuhov/oop/Pikitos/CurseWorkOOP/cmake-build-release/CMakeFiles/CourseWorkOOP.dir
 Y:/work/shuhov/oop/Pikitos/CurseWorkOOP/cmake-build-release/CMakeFiles/edit_cache.dir
 Y:/work/shuhov/oop/Pikitos/CurseWorkOOP/cmake-build-release/CMakeFiles/rebuild_cache.dir
+Y:/work/shuhov/oop/Pikitos/CurseWorkOOP/cmake-build-release/assets/scripts/CMakeFiles/SCRIPTS.dir
 Y:/work/shuhov/oop/Pikitos/CurseWorkOOP/cmake-build-release/assets/scripts/CMakeFiles/edit_cache.dir
 Y:/work/shuhov/oop/Pikitos/CurseWorkOOP/cmake-build-release/assets/scripts/CMakeFiles/rebuild_cache.dir
 Y:/work/shuhov/oop/Pikitos/CurseWorkOOP/cmake-build-release/assets/scripts/gameplay/CMakeFiles/GAMEPLAY.dir

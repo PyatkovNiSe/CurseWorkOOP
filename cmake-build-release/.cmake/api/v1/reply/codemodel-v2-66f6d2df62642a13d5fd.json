@@ -37,7 +37,11 @@
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 0,
-					"source" : "assets/scripts"
+					"source" : "assets/scripts",
+					"targetIndexes" : 
+					[
+						2
+					]
 				},
 				{
 					"build" : "assets/scripts/gameplay",
@@ -66,7 +70,7 @@
 					"source" : "assets/scripts/ui",
 					"targetIndexes" : 
 					[
-						2
+						3
 					]
 				},
 				{
@@ -81,7 +85,7 @@
 					"source" : "assets/scripts/utility",
 					"targetIndexes" : 
 					[
-						3
+						4
 					]
 				}
 			],
@@ -103,7 +107,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -112,7 +117,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "CourseWorkOOP::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-CourseWorkOOP-Release-4225399631e47ec1d789.json",
+					"jsonFile" : "target-CourseWorkOOP-Release-5d7cc7e67bfe01026270.json",
 					"name" : "CourseWorkOOP",
 					"projectIndex" : 0
 				},
@@ -121,6 +126,13 @@
 					"id" : "GAMEPLAY::@8c24bbd3b63a1c99b462",
 					"jsonFile" : "target-GAMEPLAY-Release-153715abf6c95e5f07cf.json",
 					"name" : "GAMEPLAY",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SCRIPTS::@7ae8b4da6de210f21ee0",
+					"jsonFile" : "target-SCRIPTS-Release-de0ffbd77c57403d83d6.json",
+					"name" : "SCRIPTS",
 					"projectIndex" : 0
 				},
 				{

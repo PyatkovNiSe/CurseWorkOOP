@@ -1,14 +1,12 @@
 #ifndef COURSEWORKOOP_ASSETS_SCRIPTS_UTILITY_SIZE_2_H
 #define COURSEWORKOOP_ASSETS_SCRIPTS_UTILITY_SIZE_2_H
 
-#include <cstdint>
-
 #include "Vector2.h"
 
 namespace structopolis::utility {
-class Size2 : public Vector2<uint16_t> {
+class Size2 : public Vector2<float> {
  public:
-  using Base = Vector2<uint16_t>;
+  using Base = Vector2<float>;
   using Base::Base;
 
  public:
@@ -23,25 +21,25 @@ class Size2 : public Vector2<uint16_t> {
 #pragma clang diagnostic pop
 
   [[nodiscard]]
-  constexpr uint16_t GetWidth() const {
+  constexpr float GetWidth() const {
 	return GetX();
   }
 
   [[nodiscard]]
-  constexpr uint16_t GetHeight() const {
+  constexpr float GetHeight() const {
 	return GetY();
   }
 
-  void SetWidth(const uint16_t width) {
+  void SetWidth(const float width) {
 	SetX(width);
   }
 
-  void SetHeight(const uint16_t width) {
+  void SetHeight(const float width) {
 	SetY(width);
   }
 
   [[nodiscard]]
-  constexpr uint32_t GetSquare() const {
+  constexpr float GetSquare() const {
 	return GetWidth() * GetHeight();
   }
 };

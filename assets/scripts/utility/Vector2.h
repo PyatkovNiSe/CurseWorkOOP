@@ -1,7 +1,6 @@
 #ifndef COURSEWORKOOP_ASSETS_SCRIPTS_UTILITY_VECTOR_2_H
 #define COURSEWORKOOP_ASSETS_SCRIPTS_UTILITY_VECTOR_2_H
 
-#include <windows.h>
 #include <cmath>
 
 namespace structopolis::utility {
@@ -25,10 +24,6 @@ class Vector2 {
   constexpr Vector2(const T x, const T y) :
 	  x_(x),
 	  y_(y) {}
-
-  explicit operator COORD() {
-	return {x_, y_};
-  }
 
   [[nodiscard]]
   constexpr T GetX() const {

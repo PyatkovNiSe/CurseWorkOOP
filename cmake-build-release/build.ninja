@@ -47,13 +47,13 @@ cmake_ninja_workdir = Y$:/work/shuhov/oop/Pikitos/CurseWorkOOP/cmake-build-relea
 #############################################
 # Order-only phony target for CourseWorkOOP
 
-build cmake_object_order_depends_target_CourseWorkOOP: phony || cmake_object_order_depends_target_GAMEPLAY cmake_object_order_depends_target_UI cmake_object_order_depends_target_UTILITY
+build cmake_object_order_depends_target_CourseWorkOOP: phony || cmake_object_order_depends_target_SCRIPTS
 
 build CMakeFiles/CourseWorkOOP.dir/Main.cpp.obj: CXX_COMPILER__CourseWorkOOP_Release Y$:/work/shuhov/oop/Pikitos/CurseWorkOOP/Main.cpp || cmake_object_order_depends_target_CourseWorkOOP
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\CourseWorkOOP.dir\Main.cpp.obj.d
   FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -std=gnu++23
-  INCLUDES = -IY:/work/shuhov/oop/Pikitos/CurseWorkOOP/assets/scripts/gameplay/. -IY:/work/shuhov/oop/Pikitos/CurseWorkOOP/assets/scripts/ui/. -IY:/work/shuhov/oop/Pikitos/CurseWorkOOP/assets/scripts/utility/. -IY:/work/shuhov/oop/Pikitos/CurseWorkOOP/assets/scripts/gameplay -IY:/work/shuhov/oop/Pikitos/CurseWorkOOP/assets/scripts/ui -IY:/work/shuhov/oop/Pikitos/CurseWorkOOP/assets/scripts/utility -isystem C:/SFML_mingw64/include
+  INCLUDES = -IY:/work/shuhov/oop/Pikitos/CurseWorkOOP/assets/scripts -isystem C:/SFML_mingw64/include
   OBJECT_DIR = CMakeFiles\CourseWorkOOP.dir
   OBJECT_FILE_DIR = CMakeFiles\CourseWorkOOP.dir
 
@@ -65,10 +65,10 @@ build CMakeFiles/CourseWorkOOP.dir/Main.cpp.obj: CXX_COMPILER__CourseWorkOOP_Rel
 #############################################
 # Link the executable Y:\work\shuhov\oop\Pikitos\CurseWorkOOP\bin\release\CourseWorkOOP.exe
 
-build Y$:/work/shuhov/oop/Pikitos/CurseWorkOOP/bin/release/CourseWorkOOP.exe: CXX_EXECUTABLE_LINKER__CourseWorkOOP_Release CMakeFiles/CourseWorkOOP.dir/Main.cpp.obj | assets/scripts/gameplay/libGAMEPLAY.a assets/scripts/ui/libUI.a assets/scripts/utility/libUTILITY.a C$:/SFML_mingw64/lib/libsfml-system-s.a C$:/SFML_mingw64/lib/libsfml-window-s.a C$:/SFML_mingw64/lib/libsfml-graphics-s.a C$:/SFML_mingw64/lib/libsfml-audio-s.a C$:/SFML_mingw64/lib/libsfml-window-s.a C$:/SFML_mingw64/lib/libfreetype.a C$:/SFML_mingw64/lib/libsfml-system-s.a C$:/SFML_mingw64/lib/libopenal32.a C$:/SFML_mingw64/lib/libvorbisfile.a C$:/SFML_mingw64/lib/libvorbisenc.a C$:/SFML_mingw64/lib/libvorbis.a C$:/SFML_mingw64/lib/libogg.a C$:/SFML_mingw64/lib/libFLAC.a || assets/scripts/gameplay/libGAMEPLAY.a assets/scripts/ui/libUI.a assets/scripts/utility/libUTILITY.a
+build Y$:/work/shuhov/oop/Pikitos/CurseWorkOOP/bin/release/CourseWorkOOP.exe: CXX_EXECUTABLE_LINKER__CourseWorkOOP_Release CMakeFiles/CourseWorkOOP.dir/Main.cpp.obj | assets/scripts/libSCRIPTS.a C$:/SFML_mingw64/lib/libsfml-system-s.a C$:/SFML_mingw64/lib/libsfml-window-s.a C$:/SFML_mingw64/lib/libsfml-graphics-s.a C$:/SFML_mingw64/lib/libsfml-audio-s.a C$:/SFML_mingw64/lib/libsfml-window-s.a C$:/SFML_mingw64/lib/libfreetype.a C$:/SFML_mingw64/lib/libsfml-system-s.a C$:/SFML_mingw64/lib/libopenal32.a C$:/SFML_mingw64/lib/libvorbisfile.a C$:/SFML_mingw64/lib/libvorbisenc.a C$:/SFML_mingw64/lib/libvorbis.a C$:/SFML_mingw64/lib/libogg.a C$:/SFML_mingw64/lib/libFLAC.a || assets/scripts/libSCRIPTS.a
   FLAGS = -O3 -DNDEBUG
   LINK_FLAGS = -static
-  LINK_LIBRARIES = assets/scripts/gameplay/libGAMEPLAY.a  assets/scripts/ui/libUI.a  assets/scripts/utility/libUTILITY.a  C:/SFML_mingw64/lib/libsfml-system-s.a  C:/SFML_mingw64/lib/libsfml-window-s.a  C:/SFML_mingw64/lib/libsfml-graphics-s.a  C:/SFML_mingw64/lib/libsfml-audio-s.a  C:/SFML_mingw64/lib/libsfml-window-s.a  -lgdi32  -lOpenGL32  C:/SFML_mingw64/lib/libfreetype.a  C:/SFML_mingw64/lib/libsfml-system-s.a  -lwinmm  C:/SFML_mingw64/lib/libopenal32.a  C:/SFML_mingw64/lib/libvorbisfile.a  C:/SFML_mingw64/lib/libvorbisenc.a  C:/SFML_mingw64/lib/libvorbis.a  C:/SFML_mingw64/lib/libogg.a  C:/SFML_mingw64/lib/libFLAC.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_LIBRARIES = assets/scripts/libSCRIPTS.a  C:/SFML_mingw64/lib/libsfml-system-s.a  C:/SFML_mingw64/lib/libsfml-window-s.a  C:/SFML_mingw64/lib/libsfml-graphics-s.a  C:/SFML_mingw64/lib/libsfml-audio-s.a  C:/SFML_mingw64/lib/libsfml-window-s.a  -lgdi32  -lOpenGL32  C:/SFML_mingw64/lib/libfreetype.a  C:/SFML_mingw64/lib/libsfml-system-s.a  -lwinmm  C:/SFML_mingw64/lib/libopenal32.a  C:/SFML_mingw64/lib/libvorbisfile.a  C:/SFML_mingw64/lib/libvorbisenc.a  C:/SFML_mingw64/lib/libvorbis.a  C:/SFML_mingw64/lib/libogg.a  C:/SFML_mingw64/lib/libFLAC.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\CourseWorkOOP.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -103,6 +103,31 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # Write statements declared in CMakeLists.txt:
 # Y:/work/shuhov/oop/Pikitos/CurseWorkOOP/CMakeLists.txt
 # =============================================================================
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target SCRIPTS
+
+
+#############################################
+# Order-only phony target for SCRIPTS
+
+build cmake_object_order_depends_target_SCRIPTS: phony || assets/scripts/CMakeFiles/SCRIPTS.dir
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target SCRIPTS
+
+
+#############################################
+# Link the static library assets\scripts\libSCRIPTS.a
+
+build assets/scripts/libSCRIPTS.a: CXX_STATIC_LIBRARY_LINKER__SCRIPTS_Release
+  LANGUAGE_COMPILE_FLAGS = -O3 -DNDEBUG
+  OBJECT_DIR = assets\scripts\CMakeFiles\SCRIPTS.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = assets\scripts\libSCRIPTS.a
+  TARGET_PDB = SCRIPTS.a.dbg
 
 
 #############################################
@@ -295,11 +320,15 @@ build CourseWorkOOP.exe: phony Y$:/work/shuhov/oop/Pikitos/CurseWorkOOP/bin/rele
 
 build GAMEPLAY: phony assets/scripts/gameplay/libGAMEPLAY.a
 
+build SCRIPTS: phony assets/scripts/libSCRIPTS.a
+
 build UI: phony assets/scripts/ui/libUI.a
 
 build UTILITY: phony assets/scripts/utility/libUTILITY.a
 
 build libGAMEPLAY.a: phony assets/scripts/gameplay/libGAMEPLAY.a
+
+build libSCRIPTS.a: phony assets/scripts/libSCRIPTS.a
 
 build libUI.a: phony assets/scripts/ui/libUI.a
 
@@ -320,7 +349,7 @@ build all: phony Y$:/work/shuhov/oop/Pikitos/CurseWorkOOP/bin/release/CourseWork
 #############################################
 # Folder: Y:/work/shuhov/oop/Pikitos/CurseWorkOOP/cmake-build-release/assets/scripts
 
-build assets/scripts/all: phony assets/scripts/gameplay/all assets/scripts/ui/all assets/scripts/utility/all
+build assets/scripts/all: phony assets/scripts/libSCRIPTS.a assets/scripts/gameplay/all assets/scripts/ui/all assets/scripts/utility/all
 
 # =============================================================================
 

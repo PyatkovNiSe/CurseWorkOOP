@@ -43,7 +43,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "Debug"
+			"value" : "Release"
 		},
 		{
 			"name" : "CMAKE_CACHEFILE_DIR",
@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "y:/work/shuhov/oop/Pikitos/CurseWorkOOP/cmake-build-debug"
+			"value" : "y:/work/shuhov/oop/Pikitos/CurseWorkOOP/cmake-build-release"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -575,7 +575,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "Y:/work/shuhov/oop/Pikitos/CurseWorkOOP/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "Y:/work/shuhov/oop/Pikitos/CurseWorkOOP/cmake-build-release/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -875,7 +875,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "CourseWorkOOP"
+			"value" : "Structopolis"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1263,7 +1263,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "Y:/work/shuhov/oop/Pikitos/CurseWorkOOP/cmake-build-debug"
+			"value" : "Y:/work/shuhov/oop/Pikitos/CurseWorkOOP/cmake-build-release"
 		},
 		{
 			"name" : "CourseWorkOOP_IS_TOP_LEVEL",
@@ -1364,6 +1364,42 @@
 			],
 			"type" : "PATH",
 			"value" : "SFML_DOC_DIR-NOTFOUND"
+		},
+		{
+			"name" : "Structopolis_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "Y:/work/shuhov/oop/Pikitos/CurseWorkOOP/cmake-build-release"
+		},
+		{
+			"name" : "Structopolis_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "Structopolis_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "Y:/work/shuhov/oop/Pikitos/CurseWorkOOP"
 		},
 		{
 			"name" : "VorbisEnc_LIB",

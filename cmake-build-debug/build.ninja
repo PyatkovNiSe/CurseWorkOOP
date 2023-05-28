@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: CourseWorkOOP
+# Project: Structopolis
 # Configurations: Debug
 # =============================================================================
 
@@ -41,40 +41,40 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = Y$:/work/shuhov/oop/Pikitos/CurseWorkOOP/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target CourseWorkOOP
+# Object build statements for EXECUTABLE target Structopolis
 
 
 #############################################
-# Order-only phony target for CourseWorkOOP
+# Order-only phony target for Structopolis
 
-build cmake_object_order_depends_target_CourseWorkOOP: phony || cmake_object_order_depends_target_SCRIPTS
+build cmake_object_order_depends_target_Structopolis: phony || cmake_object_order_depends_target_SCRIPTS
 
-build CMakeFiles/CourseWorkOOP.dir/Main.cpp.obj: CXX_COMPILER__CourseWorkOOP_Debug Y$:/work/shuhov/oop/Pikitos/CurseWorkOOP/Main.cpp || cmake_object_order_depends_target_CourseWorkOOP
+build CMakeFiles/Structopolis.dir/Main.cpp.obj: CXX_COMPILER__Structopolis_Debug Y$:/work/shuhov/oop/Pikitos/CurseWorkOOP/Main.cpp || cmake_object_order_depends_target_Structopolis
   DEFINES = -DSFML_STATIC
-  DEP_FILE = CMakeFiles\CourseWorkOOP.dir\Main.cpp.obj.d
+  DEP_FILE = CMakeFiles\Structopolis.dir\Main.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++23
   INCLUDES = -IY:/work/shuhov/oop/Pikitos/CurseWorkOOP/assets/scripts -isystem C:/SFML_mingw64/include
-  OBJECT_DIR = CMakeFiles\CourseWorkOOP.dir
-  OBJECT_FILE_DIR = CMakeFiles\CourseWorkOOP.dir
+  OBJECT_DIR = CMakeFiles\Structopolis.dir
+  OBJECT_FILE_DIR = CMakeFiles\Structopolis.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target CourseWorkOOP
+# Link build statements for EXECUTABLE target Structopolis
 
 
 #############################################
-# Link the executable Y:\work\shuhov\oop\Pikitos\CurseWorkOOP\bin\debug\CourseWorkOOP_debug.exe
+# Link the executable Y:\work\shuhov\oop\Pikitos\CurseWorkOOP\bin\debug\Structopolis_debug.exe
 
-build Y$:/work/shuhov/oop/Pikitos/CurseWorkOOP/bin/debug/CourseWorkOOP_debug.exe: CXX_EXECUTABLE_LINKER__CourseWorkOOP_Debug CMakeFiles/CourseWorkOOP.dir/Main.cpp.obj | assets/scripts/libSCRIPTS.a C$:/SFML_mingw64/lib/libsfml-system-s-d.a C$:/SFML_mingw64/lib/libsfml-window-s-d.a C$:/SFML_mingw64/lib/libsfml-graphics-s-d.a C$:/SFML_mingw64/lib/libsfml-audio-s-d.a C$:/SFML_mingw64/lib/libsfml-window-s-d.a C$:/SFML_mingw64/lib/libfreetype.a C$:/SFML_mingw64/lib/libsfml-system-s-d.a C$:/SFML_mingw64/lib/libopenal32.a C$:/SFML_mingw64/lib/libvorbisfile.a C$:/SFML_mingw64/lib/libvorbisenc.a C$:/SFML_mingw64/lib/libvorbis.a C$:/SFML_mingw64/lib/libogg.a C$:/SFML_mingw64/lib/libFLAC.a || assets/scripts/libSCRIPTS.a
+build Y$:/work/shuhov/oop/Pikitos/CurseWorkOOP/bin/debug/Structopolis_debug.exe: CXX_EXECUTABLE_LINKER__Structopolis_Debug CMakeFiles/Structopolis.dir/Main.cpp.obj | assets/scripts/libSCRIPTS.a C$:/SFML_mingw64/lib/libsfml-system-s-d.a C$:/SFML_mingw64/lib/libsfml-window-s-d.a C$:/SFML_mingw64/lib/libsfml-graphics-s-d.a C$:/SFML_mingw64/lib/libsfml-audio-s-d.a C$:/SFML_mingw64/lib/libsfml-window-s-d.a C$:/SFML_mingw64/lib/libfreetype.a C$:/SFML_mingw64/lib/libsfml-system-s-d.a C$:/SFML_mingw64/lib/libopenal32.a C$:/SFML_mingw64/lib/libvorbisfile.a C$:/SFML_mingw64/lib/libvorbisenc.a C$:/SFML_mingw64/lib/libvorbis.a C$:/SFML_mingw64/lib/libogg.a C$:/SFML_mingw64/lib/libFLAC.a || assets/scripts/libSCRIPTS.a
   FLAGS = -g
   LINK_FLAGS = -static
   LINK_LIBRARIES = assets/scripts/libSCRIPTS.a  C:/SFML_mingw64/lib/libsfml-system-s-d.a  C:/SFML_mingw64/lib/libsfml-window-s-d.a  C:/SFML_mingw64/lib/libsfml-graphics-s-d.a  C:/SFML_mingw64/lib/libsfml-audio-s-d.a  C:/SFML_mingw64/lib/libsfml-window-s-d.a  -lgdi32  -lOpenGL32  C:/SFML_mingw64/lib/libfreetype.a  C:/SFML_mingw64/lib/libsfml-system-s-d.a  -lwinmm  C:/SFML_mingw64/lib/libopenal32.a  C:/SFML_mingw64/lib/libvorbisfile.a  C:/SFML_mingw64/lib/libvorbisenc.a  C:/SFML_mingw64/lib/libvorbis.a  C:/SFML_mingw64/lib/libogg.a  C:/SFML_mingw64/lib/libFLAC.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\CourseWorkOOP.dir
+  OBJECT_DIR = CMakeFiles\Structopolis.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = Y:\work\shuhov\oop\Pikitos\CurseWorkOOP\bin\debug\CourseWorkOOP_debug.exe
-  TARGET_IMPLIB = libCourseWorkOOP.dll.a
-  TARGET_PDB = CourseWorkOOP_debug.exe.dbg
+  TARGET_FILE = Y:\work\shuhov\oop\Pikitos\CurseWorkOOP\bin\debug\Structopolis_debug.exe
+  TARGET_IMPLIB = libStructopolis.dll.a
+  TARGET_PDB = Structopolis_debug.exe.dbg
 
 
 #############################################
@@ -314,13 +314,13 @@ build assets/scripts/utility/rebuild_cache: phony assets/scripts/utility/CMakeFi
 # =============================================================================
 # Target aliases.
 
-build CourseWorkOOP: phony Y$:/work/shuhov/oop/Pikitos/CurseWorkOOP/bin/debug/CourseWorkOOP_debug.exe
-
-build CourseWorkOOP_debug.exe: phony Y$:/work/shuhov/oop/Pikitos/CurseWorkOOP/bin/debug/CourseWorkOOP_debug.exe
-
 build GAMEPLAY: phony assets/scripts/gameplay/libGAMEPLAY.a
 
 build SCRIPTS: phony assets/scripts/libSCRIPTS.a
+
+build Structopolis: phony Y$:/work/shuhov/oop/Pikitos/CurseWorkOOP/bin/debug/Structopolis_debug.exe
+
+build Structopolis_debug.exe: phony Y$:/work/shuhov/oop/Pikitos/CurseWorkOOP/bin/debug/Structopolis_debug.exe
 
 build UI: phony assets/scripts/ui/libUI.a
 
@@ -342,7 +342,7 @@ build libUTILITY.a: phony assets/scripts/utility/libUTILITY.a
 #############################################
 # Folder: Y:/work/shuhov/oop/Pikitos/CurseWorkOOP/cmake-build-debug
 
-build all: phony Y$:/work/shuhov/oop/Pikitos/CurseWorkOOP/bin/debug/CourseWorkOOP_debug.exe assets/scripts/all
+build all: phony Y$:/work/shuhov/oop/Pikitos/CurseWorkOOP/bin/debug/Structopolis_debug.exe assets/scripts/all
 
 # =============================================================================
 

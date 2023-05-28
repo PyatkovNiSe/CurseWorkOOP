@@ -1,6 +1,6 @@
 C:\Users\shamr\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/shamr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/ninja/win/x64/ninja.exe -G Ninja -S Y:\work\shuhov\oop\Pikitos\CurseWorkOOP -B Y:\work\shuhov\oop\Pikitos\CurseWorkOOP\cmake-build-debug
 GAMEPLAY [SOURCES] -> 
-GAMEPLAY [HEADERS] -> Y:/work/shuhov/oop/Pikitos/CurseWorkOOP/assets/scripts/gameplay/Gameplay.h
+GAMEPLAY [HEADERS] -> Y:/work/shuhov/oop/Pikitos/CurseWorkOOP/assets/scripts/gameplay/Building.hY:/work/shuhov/oop/Pikitos/CurseWorkOOP/assets/scripts/gameplay/Cell.hY:/work/shuhov/oop/Pikitos/CurseWorkOOP/assets/scripts/gameplay/ConditionFactory.hY:/work/shuhov/oop/Pikitos/CurseWorkOOP/assets/scripts/gameplay/Gameplay.hY:/work/shuhov/oop/Pikitos/CurseWorkOOP/assets/scripts/gameplay/Gold.hY:/work/shuhov/oop/Pikitos/CurseWorkOOP/assets/scripts/gameplay/IBuilding.hY:/work/shuhov/oop/Pikitos/CurseWorkOOP/assets/scripts/gameplay/Material.hY:/work/shuhov/oop/Pikitos/CurseWorkOOP/assets/scripts/gameplay/Resources.hY:/work/shuhov/oop/Pikitos/CurseWorkOOP/assets/scripts/gameplay/Time.h
 UI [SOURCES] -> 
 UI [HEADERS] -> Y:/work/shuhov/oop/Pikitos/CurseWorkOOP/assets/scripts/ui/Ui.h
 UTILITY [SOURCES] -> 

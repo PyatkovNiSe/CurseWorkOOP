@@ -10,7 +10,7 @@
 					[
 						1
 					],
-					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.24"
@@ -19,7 +19,7 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						2
 					]
 				},
 				{
@@ -30,7 +30,7 @@
 						3,
 						4
 					],
-					"jsonFile" : "directory-assets.scripts-Release-0595c9836360acbc4a25.json",
+					"jsonFile" : "directory-assets.scripts-Debug-0595c9836360acbc4a25.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.24"
@@ -40,12 +40,12 @@
 					"source" : "assets/scripts",
 					"targetIndexes" : 
 					[
-						2
+						1
 					]
 				},
 				{
 					"build" : "assets/scripts/gameplay",
-					"jsonFile" : "directory-assets.scripts.gameplay-Release-62e32bd431f3938ed58d.json",
+					"jsonFile" : "directory-assets.scripts.gameplay-Debug-62e32bd431f3938ed58d.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.24"
@@ -55,12 +55,12 @@
 					"source" : "assets/scripts/gameplay",
 					"targetIndexes" : 
 					[
-						1
+						0
 					]
 				},
 				{
 					"build" : "assets/scripts/ui",
-					"jsonFile" : "directory-assets.scripts.ui-Release-c1aadbdafd0cb4ab740d.json",
+					"jsonFile" : "directory-assets.scripts.ui-Debug-c1aadbdafd0cb4ab740d.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.24"
@@ -75,7 +75,7 @@
 				},
 				{
 					"build" : "assets/scripts/utility",
-					"jsonFile" : "directory-assets.scripts.utility-Release-e83f8d75af4d8ca02780.json",
+					"jsonFile" : "directory-assets.scripts.utility-Debug-e83f8d75af4d8ca02780.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.24"
@@ -89,7 +89,7 @@
 					]
 				}
 			],
-			"name" : "Release",
+			"name" : "Debug",
 			"projects" : 
 			[
 				{
@@ -101,7 +101,7 @@
 						3,
 						4
 					],
-					"name" : "CourseWorkOOP",
+					"name" : "Structopolis",
 					"targetIndexes" : 
 					[
 						0,
@@ -115,37 +115,37 @@
 			"targets" : 
 			[
 				{
-					"directoryIndex" : 0,
-					"id" : "CourseWorkOOP::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-CourseWorkOOP-Release-5d7cc7e67bfe01026270.json",
-					"name" : "CourseWorkOOP",
-					"projectIndex" : 0
-				},
-				{
 					"directoryIndex" : 2,
 					"id" : "GAMEPLAY::@8c24bbd3b63a1c99b462",
-					"jsonFile" : "target-GAMEPLAY-Release-153715abf6c95e5f07cf.json",
+					"jsonFile" : "target-GAMEPLAY-Debug-1eae7fe6d4a82fafd9e9.json",
 					"name" : "GAMEPLAY",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "SCRIPTS::@7ae8b4da6de210f21ee0",
-					"jsonFile" : "target-SCRIPTS-Release-de0ffbd77c57403d83d6.json",
+					"jsonFile" : "target-SCRIPTS-Debug-de0ffbd77c57403d83d6.json",
 					"name" : "SCRIPTS",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Structopolis::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Structopolis-Debug-2fc28bc05714c29a3d86.json",
+					"name" : "Structopolis",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 3,
 					"id" : "UI::@38b9ca77f385106c19a3",
-					"jsonFile" : "target-UI-Release-d0bc7c0648b371ce4a86.json",
+					"jsonFile" : "target-UI-Debug-d0bc7c0648b371ce4a86.json",
 					"name" : "UI",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 4,
 					"id" : "UTILITY::@fb5dd210f79cab5e9107",
-					"jsonFile" : "target-UTILITY-Release-ea75b42987818af4e20a.json",
+					"jsonFile" : "target-UTILITY-Debug-ea75b42987818af4e20a.json",
 					"name" : "UTILITY",
 					"projectIndex" : 0
 				}
@@ -155,7 +155,7 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "Y:/work/shuhov/oop/Pikitos/CurseWorkOOP/cmake-build-release",
+		"build" : "Y:/work/shuhov/oop/Pikitos/CurseWorkOOP/cmake-build-debug",
 		"source" : "Y:/work/shuhov/oop/Pikitos/CurseWorkOOP"
 	},
 	"version" : 

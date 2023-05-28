@@ -1,17 +1,10 @@
 # ninja log v5
 1721	2488	7069944625796225	CourseWorkOOP.exe	5a1fc318085f9711
-8	151	7069992304685825	CMakeFiles/CourseWorkOOP.dir/Main.cpp.obj	cf07b51846ee20dd
-16	237	7069985932870526	assets/scripts/ui/libUI.a	25f58fd7d9bc3588
+5	4215	7070013475946950	CMakeFiles/CourseWorkOOP.dir/Main.cpp.obj	cf07b51846ee20dd
 1	140	7069992304556171	assets/scripts/libSCRIPTS.a	e40dccfa02c2983a
+16	237	7069985932870526	assets/scripts/ui/libUI.a	25f58fd7d9bc3588
 23	239	7069985932870526	assets/scripts/utility/libUTILITY.a	db5437c54fb5baa8
 8	238	7069985932870526	assets/scripts/gameplay/libGAMEPLAY.a	cfee60ff03c99d6d
-152	345	7069992306550846	Y:/work/shuhov/oop/Pikitos/CurseWorkOOP/bin/debug/CourseWorkOOP_debug.exe	73942eb1f90dc7f6
-1	362	7070005962071308	build.ninja	4d03663aca570df
-1	4472	7070009670169431	CMakeFiles/CourseWorkOOP.dir/Main.cpp.obj	cf07b51846ee20dd
-4475	5530	7070009680562071	Y:/work/shuhov/oop/Pikitos/CurseWorkOOP/bin/debug/CourseWorkOOP_debug.exe	73942eb1f90dc7f6
-5	4184	7070009928401764	CMakeFiles/CourseWorkOOP.dir/Main.cpp.obj	cf07b51846ee20dd
-4184	5191	7070009938300672	Y:/work/shuhov/oop/Pikitos/CurseWorkOOP/bin/debug/CourseWorkOOP_debug.exe	73942eb1f90dc7f6
-5	4563	7070013277998005	CMakeFiles/CourseWorkOOP.dir/Main.cpp.obj	cf07b51846ee20dd
-4563	5569	7070013287891758	Y:/work/shuhov/oop/Pikitos/CurseWorkOOP/bin/debug/CourseWorkOOP_debug.exe	73942eb1f90dc7f6
-5	4215	7070013475946950	CMakeFiles/CourseWorkOOP.dir/Main.cpp.obj	cf07b51846ee20dd
-4216	5206	7070013485696005	Y:/work/shuhov/oop/Pikitos/CurseWorkOOP/bin/debug/CourseWorkOOP_debug.exe	73942eb1f90dc7f6
+1	5785	7070066624091435	CMakeFiles/Structopolis.dir/Main.cpp.obj	585f72ee769c5830
+0	373	7070085448423658	build.ninja	4d03663aca570df
+5789	6798	7070066634024895	Y:/work/shuhov/oop/Pikitos/CurseWorkOOP/bin/debug/Structopolis_debug.exe	8007c747726d41a3

@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Y:/work/shuhov/oop/Pikitos/CurseWorkOOP/bin/debug/CourseWorkOOP_debug.exe"
+			"path" : "Y:/work/shuhov/oop/Pikitos/CurseWorkOOP/bin/release/Structopolis.exe"
 		},
 		{
-			"path" : "Y:/work/shuhov/oop/Pikitos/CurseWorkOOP/bin/debug/CourseWorkOOP_debug.pdb"
+			"path" : "Y:/work/shuhov/oop/Pikitos/CurseWorkOOP/bin/release/Structopolis.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -205,7 +205,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -fdiagnostics-color=always"
+					"fragment" : "-O3 -DNDEBUG -fdiagnostics-color=always"
 				},
 				{
 					"fragment" : "-std=gnu++23"
@@ -252,13 +252,13 @@
 			"id" : "SCRIPTS::@7ae8b4da6de210f21ee0"
 		}
 	],
-	"id" : "CourseWorkOOP::@6890427a1f51a3e7e1df",
+	"id" : "Structopolis::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-g",
+				"fragment" : "-O3 -DNDEBUG",
 				"role" : "flags"
 			},
 			{
@@ -277,27 +277,27 @@
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "C:\\SFML_mingw64\\lib\\libsfml-system-s-d.a",
+				"fragment" : "C:\\SFML_mingw64\\lib\\libsfml-system-s.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "C:\\SFML_mingw64\\lib\\libsfml-window-s-d.a",
+				"fragment" : "C:\\SFML_mingw64\\lib\\libsfml-window-s.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "C:\\SFML_mingw64\\lib\\libsfml-graphics-s-d.a",
+				"fragment" : "C:\\SFML_mingw64\\lib\\libsfml-graphics-s.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "C:\\SFML_mingw64\\lib\\libsfml-audio-s-d.a",
+				"fragment" : "C:\\SFML_mingw64\\lib\\libsfml-audio-s.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "C:\\SFML_mingw64\\lib\\libsfml-window-s-d.a",
+				"fragment" : "C:\\SFML_mingw64\\lib\\libsfml-window-s.a",
 				"role" : "libraries"
 			},
 			{
@@ -317,7 +317,7 @@
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "C:\\SFML_mingw64\\lib\\libsfml-system-s-d.a",
+				"fragment" : "C:\\SFML_mingw64\\lib\\libsfml-system-s.a",
 				"role" : "libraries"
 			},
 			{
@@ -362,8 +362,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "CourseWorkOOP",
-	"nameOnDisk" : "CourseWorkOOP_debug.exe",
+	"name" : "Structopolis",
+	"nameOnDisk" : "Structopolis.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -386,7 +386,15 @@
 				2,
 				3,
 				4,
-				5
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13
 			]
 		}
 	],
@@ -421,6 +429,46 @@
 		{
 			"backtrace" : 1,
 			"path" : "assets/scripts/Scripts.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "assets/scripts/gameplay/Building.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "assets/scripts/gameplay/IBuilding.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "assets/scripts/gameplay/Resources.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "assets/scripts/gameplay/Material.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "assets/scripts/gameplay/Gold.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "assets/scripts/gameplay/Time.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "assets/scripts/gameplay/Cell.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "assets/scripts/gameplay/ConditionFactory.h",
 			"sourceGroupIndex" : 1
 		}
 	],

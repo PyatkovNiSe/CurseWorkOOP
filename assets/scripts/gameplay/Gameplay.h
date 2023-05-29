@@ -2,6 +2,5 @@
 #define CURSEWORKOOP_ASSETS_SCRIPTS_GAMEPLAY_GAMEPLAY_H
 
 #include "Building.h"
-#include "IBuilding.h"
 
 #endif //CURSEWORKOOP_ASSETS_SCRIPTS_GAMEPLAY_GAMEPLAY_H

@@ -1,0 +1,12 @@
+#ifndef STRUCTOPOLIS_ASSETS_SCRIPTS_GAMEPLAY_FIELD_H_
+#define STRUCTOPOLIS_ASSETS_SCRIPTS_GAMEPLAY_FIELD_H_
+
+namespace structopolis::gameplay {
+
+class Field {
+
+};
+
+} // gameplay
+
+#endif //STRUCTOPOLIS_ASSETS_SCRIPTS_GAMEPLAY_FIELD_H_

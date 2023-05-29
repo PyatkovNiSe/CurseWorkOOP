@@ -21,7 +21,7 @@ set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_link_options(-static)
 
-add_executable(${PROJECT_NAME} Main.cpp assets/scripts/utility/Utility.h assets/scripts/ui/Ui.h assets/scripts/gameplay/Gameplay.h assets/scripts/utility/Container.h assets/scripts/Scripts.h assets/scripts/gameplay/Building.h assets/scripts/gameplay/IBuilding.h assets/scripts/gameplay/Resources.h assets/scripts/gameplay/Material.h assets/scripts/gameplay/Gold.h assets/scripts/gameplay/Time.h assets/scripts/gameplay/Cell.h assets/scripts/gameplay/ConditionFactory.h)
+add_executable(${PROJECT_NAME} Main.cpp assets/scripts/utility/Utility.h assets/scripts/ui/Ui.h assets/scripts/gameplay/Gameplay.h assets/scripts/utility/Container.h assets/scripts/Scripts.h assets/scripts/gameplay/Building.h assets/scripts/gameplay/Resources.h assets/scripts/gameplay/Material.h assets/scripts/gameplay/Gold.h assets/scripts/gameplay/Time.h assets/scripts/gameplay/Cell.h assets/scripts/gameplay/ConditionFactory.h assets/scripts/gameplay/BuildingInfo.h assets/scripts/gameplay/Field.h)
 
 set(SCRIPTS_DIR "assets/scripts")
 add_subdirectory(${SCRIPTS_DIR})

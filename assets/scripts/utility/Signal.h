@@ -24,7 +24,7 @@ class Signal {
   std::vector<ObserverRequest> requests_;
 
  public:
-  Signal() = default;
+  constexpr Signal() = default;
 
   virtual ~Signal() = default;
 

@@ -6,42 +6,56 @@
 
 #include "../utility/Signal.h"
 #include "Resources.h"
-#include "IBuilding.h"
+#include "BuildingInfo.h"
+#include "ConditionFactory.h"
 #include "Cell.h"
 
 namespace structopolis::gameplay {
 
-class Building : IBuilding {
+class Building {
  public:
 	utility::Signal<void(Resources)> OnProduced;
+	utility::Signal<void(Cell*)> OnBuilt;
 
  private:
-	Resources cost_;
-	Resources production_;
-	float production_time_;
-	std::function<void(uint64_t)> producer_;
+	const BuildingInfo *info_;
+	float multiplier_ = 1;
 
  public:
-	Building(Resources cost,
-					 Resources production_per_time,
-					 float production_time)
-			: cost_(std::move(cost)),
-				production_(std::move(production_per_time)),
-				production_time_(production_time) {
-		producer_ = [this](const uint64_t logic_tick){
-			std::jthread([this]{
-				std::this_thread::sleep_for(std::chrono::duration<float>(production_time_));
+	constexpr Building(const BuildingInfo *info, float multiplier)
+			: info_(info), multiplier_(multiplier) {}
+
+	[[nodiscard]]
+	const BuildingInfo *GetInfo() const {
+		return info_;
+	}
+
+	[[nodiscard]]
+	float GetMultiplier() const {
+		return multiplier_;
+	}
+
+	void SetMultiplier(float multiplier) {
+		multiplier_ = multiplier;
+	}
+
+	void Build(Cell* cell) {
+		Resources production = GetMin(cell->resources, info_.);
+		if (!cell->empty || production == Resources{}) {
+			return;
+		}
+
+		production_ = production;
+		std::jthread([this]{
+			while(true) {
+				std::this_thread::sleep_for(std::chrono::duration<float>(
+						production_time_ / multiplier_));
 				OnProduced.Notify(production_);
-			}).detach();
-		};
-	}
+			}
+		}).detach();
 
-	[[nodiscard]] Resources GetCost() const override {
-		return cost_;
-	}
-
-	void Build(Cell* cell) override {
-
+		cell->empty = false;
+		OnBuilt.Notify(cell);
 	}
 };
 }

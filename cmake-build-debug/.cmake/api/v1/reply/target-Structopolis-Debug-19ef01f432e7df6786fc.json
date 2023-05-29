@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Y:/work/shuhov/oop/Pikitos/CurseWorkOOP/bin/release/Structopolis.exe"
+			"path" : "Y:/work/shuhov/oop/Pikitos/CurseWorkOOP/bin/debug/Structopolis_debug.exe"
 		},
 		{
-			"path" : "Y:/work/shuhov/oop/Pikitos/CurseWorkOOP/bin/release/Structopolis.pdb"
+			"path" : "Y:/work/shuhov/oop/Pikitos/CurseWorkOOP/bin/debug/Structopolis_debug.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -205,7 +205,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-O3 -DNDEBUG -fdiagnostics-color=always"
+					"fragment" : "-g -fdiagnostics-color=always"
 				},
 				{
 					"fragment" : "-std=gnu++23"
@@ -258,7 +258,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-O3 -DNDEBUG",
+				"fragment" : "-g",
 				"role" : "flags"
 			},
 			{
@@ -277,27 +277,27 @@
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "C:\\SFML_mingw64\\lib\\libsfml-system-s.a",
+				"fragment" : "C:\\SFML_mingw64\\lib\\libsfml-system-s-d.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "C:\\SFML_mingw64\\lib\\libsfml-window-s.a",
+				"fragment" : "C:\\SFML_mingw64\\lib\\libsfml-window-s-d.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "C:\\SFML_mingw64\\lib\\libsfml-graphics-s.a",
+				"fragment" : "C:\\SFML_mingw64\\lib\\libsfml-graphics-s-d.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "C:\\SFML_mingw64\\lib\\libsfml-audio-s.a",
+				"fragment" : "C:\\SFML_mingw64\\lib\\libsfml-audio-s-d.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "C:\\SFML_mingw64\\lib\\libsfml-window-s.a",
+				"fragment" : "C:\\SFML_mingw64\\lib\\libsfml-window-s-d.a",
 				"role" : "libraries"
 			},
 			{
@@ -317,7 +317,7 @@
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "C:\\SFML_mingw64\\lib\\libsfml-system-s.a",
+				"fragment" : "C:\\SFML_mingw64\\lib\\libsfml-system-s-d.a",
 				"role" : "libraries"
 			},
 			{
@@ -363,7 +363,7 @@
 		"language" : "CXX"
 	},
 	"name" : "Structopolis",
-	"nameOnDisk" : "Structopolis.exe",
+	"nameOnDisk" : "Structopolis_debug.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -394,7 +394,8 @@
 				10,
 				11,
 				12,
-				13
+				13,
+				14
 			]
 		}
 	],
@@ -438,11 +439,6 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "assets/scripts/gameplay/IBuilding.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
 			"path" : "assets/scripts/gameplay/Resources.h",
 			"sourceGroupIndex" : 1
 		},
@@ -469,6 +465,16 @@
 		{
 			"backtrace" : 1,
 			"path" : "assets/scripts/gameplay/ConditionFactory.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "assets/scripts/gameplay/BuildingInfo.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "assets/scripts/gameplay/Field.h",
 			"sourceGroupIndex" : 1
 		}
 	],

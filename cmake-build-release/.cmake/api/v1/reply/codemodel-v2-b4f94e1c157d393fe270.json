@@ -117,7 +117,7 @@
 				{
 					"directoryIndex" : 2,
 					"id" : "GAMEPLAY::@8c24bbd3b63a1c99b462",
-					"jsonFile" : "target-GAMEPLAY-Release-1eae7fe6d4a82fafd9e9.json",
+					"jsonFile" : "target-GAMEPLAY-Release-5655ec15f4d5ea848316.json",
 					"name" : "GAMEPLAY",
 					"projectIndex" : 0
 				},
@@ -131,7 +131,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Structopolis::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Structopolis-Release-8afd4e87e493481bb7bf.json",
+					"jsonFile" : "target-Structopolis-Release-ae59be94928898d0a047.json",
 					"name" : "Structopolis",
 					"projectIndex" : 0
 				},

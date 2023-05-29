@@ -60,7 +60,8 @@
 				5,
 				6,
 				7,
-				8
+				8,
+				9
 			]
 		}
 	],
@@ -69,6 +70,11 @@
 		{
 			"backtrace" : 2,
 			"path" : "assets/scripts/gameplay/Building.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "assets/scripts/gameplay/BuildingInfo.h",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -83,17 +89,17 @@
 		},
 		{
 			"backtrace" : 2,
+			"path" : "assets/scripts/gameplay/Field.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
 			"path" : "assets/scripts/gameplay/Gameplay.h",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 2,
 			"path" : "assets/scripts/gameplay/Gold.h",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 2,
-			"path" : "assets/scripts/gameplay/IBuilding.h",
 			"sourceGroupIndex" : 0
 		},
 		{

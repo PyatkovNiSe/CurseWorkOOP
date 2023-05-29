@@ -5,6 +5,13 @@ namespace structopolis::gameplay {
 
 struct Gold {
 	float value{};
+
+	bool operator==(const Gold &rhs) const {
+		return value == rhs.value;
+	}
+	bool operator!=(const Gold &rhs) const {
+		return !(rhs == *this);
+	}
 };
 
 } // gameplay

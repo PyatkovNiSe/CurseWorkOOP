@@ -10,15 +10,25 @@ namespace structopolis::gameplay {
 
 struct Material {
 	float value = 0;
-	const Gold cost;
+	Gold cost;
 
 	constexpr Material(const float value, const Gold &cost) : value(value), cost(cost) {}
 
 	virtual ~Material() = default;
+
+	bool operator==(const Material &rhs) const {
+		return value == rhs.value &&
+				cost == rhs.cost;
+	}
+	bool operator!=(const Material &rhs) const {
+		return !(rhs == *this);
+	}
 };
 
 struct Wood : public Material {
 	constexpr explicit Wood(const float value = 0) : Material(value, Gold(0.05)) {}
+
+
 };
 
 struct Stone : public Material {
